@@ -1,0 +1,102 @@
+.body-lienhe {
+    margin: 30px 50px 50px 50px;
+    width: 90%;
+
+}
+
+.lienhe-header {
+    height: 40px;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 40px;
+    margin: 20px;
+    text-align: center;
+}
+
+.lienhe-info {
+    margin: 20px auto 0;
+    display: inline-block;
+    width: 100%;
+}
+
+.guithongtin form input[type="text"],
+.guithongtin form input[type="email"],
+.guithongtin textarea {
+    width: 70%;
+    margin: 5px auto;
+    padding: 10px;
+    border: none;
+    background-color: lightgray;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.guithongtin button {
+    color: rgb(193, 163, 98);
+    border: 1px solid rgb(193, 163, 98);
+    cursor: pointer;
+    padding: 10px 24px;
+    margin: 10px auto;
+    border-radius: 34px;
+    font-weight: 600;
+    transition: .2s;
+}
+
+.guithongtin button:hover {
+    background-color: rgb(193, 163, 98);
+    color: black;
+}
+
+.info-left {
+    float: left;
+    width: 48%;
+}
+
+.info-right {
+    float: right;
+    width: 48%;
+}
+
+iframe {
+    border: 1px solid gray;
+}
+
+.guithongtin {
+    width: 45%;
+    float: left;
+}
+
+.thongtinnhom {
+    width: 50%;
+    float: right;
+}
+
+table {
+    margin-top: 10px;
+    height: 20px;
+}
+
+table input {
+    padding: 5px;
+}
+
+.thongtinnhom table {
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.thongtinnhom table td,
+th {
+    height: 30px;
+    padding: 10px;
+    text-align: center;
+}
+
+.thongtinnhom table th {
+    background-color: rgb(12, 224, 252);
+}
+
+/* những tr chẵn sẽ có màu khác */
+.thongtinnhom tr:nth-of-type(even) {
+    background-color: #f2f2f2;
+}

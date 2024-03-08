@@ -1,0 +1,51 @@
+section h1 {
+    display: block;
+    overflow: hidden;
+    line-height: 1.3em;
+    font-size: 36px;
+    text-transform: capitalize;
+    color: #4a4a4a;
+    text-align: center;
+    margin: 15px 0;
+}
+
+section marquee {
+    height: 60px;
+    color: black;
+    line-height: 60px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    background: #F8F8F8;
+}
+
+.trungtam {
+    width: 100%;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cactrungtam {
+    width: 400px;
+    max-height: 217px;
+    background-color: #F8F8F8;
+    border-radius: 10px;
+    padding: 50px;
+}
+
+.cactrungtam h3 {
+    font-family: 'Poppins-600';
+}
+
+.cactrungtam a {
+    color: black;
+    text-decoration: none;
+    display: block;
+    padding: 30px 0;
+}
+
+.cactrungtam i {
+    margin-right: 15px;
+}

@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đông Hùng Mobile Store</title>
+
+    <link rel="icon" type="image/x-icon" href="Images/icon/icon.png">
+
+    <link rel="stylesheet" href="js/owlcarousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="js/owlcarousel/owl.theme.default.min.css">
+    <script src="js/Jquery/Jquery.min.js"></script>
+    <script src="js/owlcarousel/owl.carousel.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+        crossorigin="anonymous">
+
+    <!-- <script src="https://code.jquery.com/jquery-3.7.1.js"></script> -->
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <div class="bannerTopHead">
+        <div>
+            <a href="#"><img src="Images/banner/banner1.svg" alt="banner1"></a>
+            <a href="#"><img src="Images/banner/banner2.svg" alt="banner1"></a>
+            <a href="#"><img src="Images/banner/banner3.svg" alt="banner3"></a>
+        </div>
+    </div>
+    <div class="top-nav">
+        <section>
+            <div class="social-top-nav">
+                <a class="fa fa-facebook"></a>
+                <a class="fa fa-twitter"></a>
+                <a class="fa fa-google"></a>
+                <a class="fa fa-youtube"></a>
+            </div>
+            <ul class="top-nav-quicklink">
+                <li><a href="index.html"><i class="fa fa-home"></i> Trang chủ</a></li>
+                <li><a href="tintuc.html"><i class="fa fa-newspaper-o"></i> Tin tức</a></li>
+                <li><a href="tuyendung.html"><i class="fa fa-handshake-o"></i> Tuyển dụng</a></li>
+                <li><a href="gioithieu.html"><i class="fa fa-info-circle"></i> Giới thiệu</a></li>
+                <li><a href="trungtambaohanh.html"><i class="fa fa-wrench"></i> Bảo hành</a></li>
+                <li><a href="lienhe.html"><i class="fa fa-phone"></i> Liên hệ</a></li>
+            </ul>
+        </section>
+    </div>
+    <div class="header">
+        <div class="logo">
+            <a href="index.html">
+                <img src="Images/icon/logo.png" alt="Trang chủ Hùng Đông Mobile" title="Trang chủ Hùng Đông Mobile">
+            </a>
+        </div>
+
+        <div class="content">
+            <div class="search-header" style="position: relative; left: 162px; top: 1px;">
+                <form class="input-search" method="get" action="#">
+                    <div class="autocomplete">
+                        <input id="search-box" name="search" autocomplete="off" type="text"
+                            placeholder="Nhập từ khóa tìm kiếm...">
+                        <button type="submit">
+                            <i class="fa fa-search"></i>
+                            Tìm kiếm
+                        </button>
+                    </div>
+                </form>
+                <div class="tags">
+                    <strong>Từ khóa: </strong>
+                    <a href="#">iphone</a>
+                    <a href="#">samsung</a>
+                    <a href="#">oppo</a>
+                    <a href="#">nokia</a>
+                    <a href="#">poco</a>
+                </div>
+            </div>
+            <div class="tools-member">
+                <div class="member">
+                    <a href="login.html">
+                        <i class="fa fa-user"></i>
+                        Tài khoản
+                    </a>
+                </div>
+                <div class="cart">
+                    <a href="#">
+                        <i class="fa fa-shopping-cart"></i>
+                        <span>Giỏ hàng</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="banner">
+        <div class="owl-carousel owl-theme"></div>
+    </div>
+    <section>
+        <div class="secbanner">
+            <div class="banner-first">
+                <img id="imgbanner" onclick="changeImageBanner()" src="bannersecsion1.webp" alt="bannersecsion">
+            </div>
+            <div class="banner-second">
+                <iframe width="300" height="170" src="https://www.youtube.com/embed/bVPyJU9w8oI?si=hpPtkzUr0fOyI23B"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+                <iframe width="300" height="170" src="https://www.youtube.com/embed/A9GgCwYsQP0?si=Hz6FmUiIFSXDsalT"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+            </div>
+        </div>
+        <div class="sieusale">
+            <a href="#"><img src="Images/giamgiamanh.webp" alt="giamgiamanh"></a>
+            <div class="sanphamsale">
+                <div class="box-sanphamsale">
+                    <a href="iphone15promax.html"><img src="Images/iphone-15-pro-max-black-thumbnew-600x600.jpg"
+                            alt="iphone15promax"></a>
+                    <h4>IPhone 15 Pro Max 512GB</h4>
+                    <p class="giagiam">37.990.000 đ</p>
+                    <div>
+                        <p class="giagoc">40.990.000 đ</p>
+                        <p class="phantram">&nbsp;&nbsp;-4%</p>
+                    </div>
+                    <p class="sale-mua"><a href="iphone15promax.html">Mua ngay</a>
+                    <p class="thongtinsale">Nhanh tay nào!</p>
+                </div>
+                <div class="box-sanphamsale">
+                    <a href="opponeno11f.html"><img src="Images/oppo-reno-11-f-xanh-2.webp" alt="opporeno11f"></a>
+                    <h4>OPPO Reno11 F 5G</h4>
+                    <p class="giagiam">10.490.000 đ</p>
+                    <div>
+                        <p class="giagoc">10.990.000 đ</p>
+                        <p class="phantram">&nbsp;&nbsp;-4%</p>
+                    </div>
+                    <p class="sale-mua"><a href="opponeno11f.html">Mua ngay</a>
+                    <p class="thongtinsale">Nhanh tay nào!</p>
+                </div>
+                <div class="box-sanphamsale">
+                    <a href="xiaomi13tpro5g.html"><img src="Images/xiaomi-13t-pro-xanh-thumb-600x600.webp"
+                            alt="xiaomi13t"></a>
+                    <h4>Xiaomi 13T Pro 5G</h4>
+                    <p class="giagiam">13.690.000 đ</p>
+                    <div>
+                        <p class="giagoc">15.990.000 đ</p>
+                        <p class="phantram">&nbsp;&nbsp;-14%</p>
+                    </div>
+                    <p class="sale-mua"><a href="xiaomi13tpro5g.html">Mua ngay</a>
+                    <p class="thongtinsale">Nhanh tay nào!</p>
+                </div>
+                <div class="box-sanphamsale">
+                    <a href="OPPO Reno10 5G 8GB 256GB.html"><img src="Images/oppo-reno10-blue-thumbnew-600x600.webp"
+                            alt="oppo-reno10"></a>
+                    <h4>OPPO Reno10 5G 128GB</h4>
+                    <p class="giagiam">8.690.000 đ</p>
+                    <div>
+                        <p class="giagoc">9.990.000 đ</p>
+                        <p class="phantram">&nbsp;&nbsp;-13%</p>
+                    </div>
+                    <p class="sale-mua"><a href="OPPO Reno10 5G 8GB 256GB.html">Mua ngay</a>
+                    <p class="thongtinsale">Nhanh tay nào!</p>
+                </div>
+                <div class="box-sanphamsale">
+                    <a href="Xiaomi 13T.html"><img src="Images/xiaomi-13-t-xanh-duong-thumb-thumb-600x600.webp"
+                            alt="xiaomi13"></a>
+                    <h4>Xiaomi 13T 5G 8G</h4>
+                    <p class="giagiam">9.690.000 đ</p>
+                    <div>
+                        <p class="giagoc">11.990.000 đ</p>
+                        <p class="phantram">&nbsp;&nbsp;-19%</p>
+                    </div>
+                    <p class="sale-mua"><a href="Xiaomi 13T.html">Mua ngay</a>
+                    <p class="thongtinsale">Nhanh tay nào!</p>
+                </div>
+            </div>
+        </div>
+        <h3>gợi ý các mẫu điện thoại dành cho bạn</h3>
+        <div class="dienthoaimoi">
+            <div class="box-dienthoaimoi">
+                <a href="galaxys23ultra.html"><img src="Images/samsung-galaxy-s23-ultra.webp" alt="sansungs20untra"></a>
+                <h4>Samsung Galaxy S23 Ultra 256GB</h4>
+                <p class="tien">18.990.000 đ</p>
+                <p class="mua"><a href="galaxys23ultra.html">Mua ngay</a>
+                <p class="thongtin">Trả góp 0% lãi, 0 trả trước, 0 phụ phí qua Samsung Finance+</p>
+            </div>
+            <div class="box-dienthoaimoi">
+                <a href="galaxys24ultra.html"><img src="Images/ss-s24-ultra-xam-222.webp" alt="sansungs20untra"></a>
+                <h4>Samsung Galaxy S24 Ultra 12GB 256GB</h4>
+                <p class="tien">33.990.000 đ</p>
+                <p class="mua"><a href="galaxys24ultra.html">Mua ngay</a>
+                <p class="thongtin">Trả góp 0% lãi, 0 trả trước, 0 phụ phí qua Samsung Finance+</p>
+            </div>
+            <div class="box-dienthoaimoi">
+                <a href="galaxyzflip5.html"><img src="Images/samsung-galaxy-z-flip-5-256gb_1_5.webp"
+                        alt="sansungs20untra"></a>
+                <h4>Samsung Galaxy Z Flip5 512GB</h4>
+                <p class="tien">25.989.000 đ</p>
+                <p class="mua"><a href="galaxyzflip5.html">Mua ngay</a>
+                <p class="thongtin">Trả góp 0% lãi, 0 trả trước, 0 phụ phí qua Samsung Finance+</p>
+            </div>
+            <div class="box-dienthoaimoi">
+                <a href="galaxyzfold5.html"><img src="Images/samsung-galaxy-z-fold-5-256gb_1.webp"
+                        alt="sansungs20untra"></a>
+                <h4>Samsung Galaxy Z Fold5 12GB 256GB</h4>
+                <p class="tien">36.990.000 đ</p>
+                <p class="mua"><a href="galaxyzfold5.html">Mua ngay</a>
+                <p class="thongtin">Trả góp 0% lãi, 0 trả trước, 0 phụ phí qua Samsung Finance+</p>
+            </div>
+            <div class="box-dienthoaimoi">
+                <a href="iphone13.html"><img src="Images/iphone-13_2_.webp" alt="sansungs20untra"></a>
+                <h4>iPhone 13 128GB | Chính hãng VN/A</h4>
+                <p class="tien">14.190.000 đ</p>
+                <p class="mua"><a href="iphone13.html">Mua ngay</a>
+                <p class="thongtin">Trả góp 0% lãi, 0 trả trước, 0 phụ phí qua Samsung Finance+</p>
+            </div>
+            <div class="box-dienthoaimoi">
+                <a href="xiaominote13.html"><img src="Images/xiaomi-redmi-note-13_1__1_1.webp"
+                        alt="sansungs20untra"></a>
+                <h4>Xiaomi Redmi Note 13 6GB 128GB</h4>
+                <p class="tien">3.490.000 đ</p>
+                <p class="mua"><a href="xiaominote13.html">Mua ngay</a>
+                <p class="thongtin">Trả góp 0% lãi, 0 trả trước, 0 phụ phí qua Samsung Finance+</p>
+            </div>
+            <div class="box-dienthoaimoi">
+                <a href="Nubia Neo 5G 8GB 256GB.html"><img src="Images/nubia-neo-5g_2_1.webp" alt="sansungs20untra"></a>
+                <h4>Nubia Neo 5G 8GB 256GB</h4>
+                <p class="tien">4.790.000 đ</p>
+                <p class="mua"><a href="Nubia Neo 5G 8GB 256GB.html">Mua ngay</a>
+                <p class="thongtin">Trả góp 0% lãi, 0 trả trước, 0 phụ phí qua Samsung Finance+</p>
+            </div>
+            <div class="box-dienthoaimoi">
+                <a href="Nubia RedMagic 8S Pro 5G 12GB 256GB.html"><img
+                        src="Images/nubia-red-magic-8s-pro-den-trong.jpg.webp" alt="sansungs20untra"></a>
+                <h4>Nubia RedMagic 8S Pro 5G 12GB 256GB</h4>
+                <p class="tien">12.450.000 đ</p>
+                <p class="mua"><a href="Nubia RedMagic 8S Pro 5G 12GB 256GB.html">Mua ngay</a>
+                <p class="thongtin">Trả góp 0% lãi, 0 trả trước, 0 phụ phí qua Samsung Finance+</p>
+            </div>
+            <div class="box-dienthoaimoi">
+                <a href="OPPO Find N3 16GB 512GB.html"><img src="Images/oppon3webp.webp" alt="sansungs20untra"></a>
+                <h4>OPPO Find N3 16GB 512GB</h4>
+                <p class="tien">36.990.000 đ</p>
+                <p class="mua"><a href="OPPO Find N3 16GB 512GB.html">Mua ngay</a>
+                <p class="thongtin">Trả góp 0% lãi, 0 trả trước, 0 phụ phí qua Samsung Finance+</p>
+            </div>
+            <div class="box-dienthoaimoi">
+                <a href="xiaominote13pro.html"><img src="Images/xiaomi-redmi-note-13-pro-plus_9_.webp"
+                        alt="sansungs20untra"></a>
+                <h4>Xiaomi Redmi Note 13 Pro Plus 5G 8GB 256GB</h4>
+                <p class="tien">33.990.000 đ</p>
+                <p class="mua"><a href="xiaominote13pro.html">Mua ngay</a>
+                <p class="thongtin">Trả góp 0% lãi, 0 trả trước, 0 phụ phí qua Samsung Finance+</p>
+            </div>
+        </div>
+        <div class="box-chuyenhuong">
+            <a href="#dichvusuachua">dịch vụ sửa chữa</a>
+        </div>
+        <div class="duo-img">
+            <a href="#"><img src="Images/banner/ipad-cu_1705911280.webp" alt="duo-1"></a>
+            <a href="#"><img
+                    src="Images/banner/maroon-white-modern-2023-happy-chinese-new-year-facebook-cover-1_1703933628.webp"
+                    alt="duo-2"></a>
+        </div>
+        <div class="info-donghung">
+            <h4>Đông Hùng Mobile có đáng tin cậy hay không ?</h4>
+            <p>Từ năm 2023, Đông Hùng Mobile đã trở thành một trong những điểm đến hàng đầu cho điện thoại di động và
+                các phụ kiện tại thị trường Việt Nam. Với hơn 3 năm kinh nghiệm, chúng tôi tự hào là đối tác tin cậy của
+                hàng ngàn khách hàng trên khắp đất nước.</p>
+            <img src="Images/banner/cuahangdienthoai.jpg" alt="cuahangdienthoai">
+            <figcaption>Đông Hùng Mobile Store (Minh họa)</figcaption>
+            <p>Độc quyền mang đến những sản phẩm chất lượng, Đông Hùng Mobile không chỉ cung cấp các dòng điện thoại di
+                động hàng đầu từ các thương hiệu uy tín như iPhone, Samsung, Xiaomi, Oppo, Vivo... mà còn đặc biệt chú
+                trọng đến sự đa dạng và phong phú trong các sản phẩm phụ kiện như ốp lưng, kính cường lực, tai nghe và
+                nhiều sản phẩm công nghệ khác.</p>
+            <p>Không chỉ là một điểm mua sắm, Đông Hùng Mobile còn là nơi bạn có thể trải nghiệm và khám phá những công
+                nghệ mới nhất thông qua dịch vụ tư vấn chuyên nghiệp và nhiệt tình từ đội ngũ nhân viên giàu kinh nghiệm
+                của chúng tôi.</p>
+            <h4>Có nên mua điện thoại tại Đông Hùng Mobile hay không ?</h4>
+            <p>Tất nhiên, quyết định mua điện thoại tại Đông Hùng Mobile là một lựa chọn sáng suốt và đáng tin cậy. Dưới
+                đây là một số lý do về tại sao bạn nên mua điện thoại tại Đông Hùng Mobile:</p>
+            <ul>
+                <li><b>Đa dạng sản phẩm:</b> Đông Hùng Mobile cung cấp một loạt các sản phẩm từ các thương hiệu hàng đầu
+                    thế giới như iPhone, Samsung, Xiaomi, Oppo, Vivo... Bạn có thể dễ dàng tìm thấy điện thoại phù hợp
+                    với nhu cầu và ngân sách của mình.</li>
+                <li><b>Chất lượng đảm bảo:</b> Tất cả các sản phẩm tại Đông Hùng Mobile đều được kiểm tra kỹ lưỡng để
+                    đảm bảo
+                    chất lượng và tính hoạt động ổn định. Bạn có thể yên tâm về chất lượng của sản phẩm bạn mua.</li>
+                <li><b>Dịch vụ hậu mãi tận tình:</b> Đội ngũ nhân viên tại Đông Hùng Mobile luôn sẵn lòng hỗ trợ bạn với
+                    mọi
+                    vấn đề liên quan đến sản phẩm, từ hướng dẫn sử dụng đến sửa chữa và bảo hành. Chúng tôi cam kết mang
+                    lại dịch vụ khách hàng tốt nhất.</li>
+                <li><b>Giá cả cạnh tranh:</b> Đông Hùng Mobile cam kết cung cấp sản phẩm với giá cả cạnh tranh nhất trên
+                    thị
+                    trường, đảm bảo bạn nhận được giá trị tốt nhất cho khoản đầu tư của mình.</li>
+                <li><b>Uy tín và kinh nghiệm:</b> Với hơn 15 năm hoạt động trong ngành, Đông Hùng Mobile đã xây dựng
+                    được uy
+                    tín vững chắc và có kinh nghiệm trong việc phục vụ khách hàng.</li>
+            </ul>
+            <img src="Images/anhnguoimuaiphone.webp" alt="anhnguoimuaiphone">
+            <figcaption>Khách hàng (Sưu tầm)</figcaption>
+            <p>Không chỉ là một điểm mua sắm, Đông Hùng Mobile còn là nơi bạn có thể trải nghiệm và khám phá những công
+                nghệ mới nhất thông qua dịch vụ tư vấn chuyên nghiệp và nhiệt tình từ đội ngũ nhân viên giàu kinh nghiệm
+                của chúng tôi.</p>
+            <p>Đội ngũ kỹ thuật viên tận tâm và giàu kinh nghiệm của chúng tôi sẽ luôn sẵn lòng hỗ trợ bạn với các dịch
+                vụ sửa chữa, cài đặt phần mềm và cập nhật phần mềm mới nhất cho thiết bị của bạn. Đặc biệt, chúng tôi
+                còn có khả năng hỗ trợ từ xa, giúp bạn tiết kiệm thời gian và công sức.</p>
+            <p>Hãy đến với Đông Hùng Mobile - nơi mang đến không chỉ là sản phẩm mà còn là niềm tin và trải nghiệm tuyệt
+                vời nhất cho bạn và gia đình!</p>
+        </div>
+        <div class="hotrosuachua" id="dichvusuachua">
+            <h4>Dịch vụ hỗ trợ sửa chữa điện thoại uy tín, chuyên nghiệp - Đông Hùng Mobile</h4>
+            <p>Đông Hùng Mobile, với đội ngũ kỹ thuật viên chuyên nghiệp và giàu kinh nghiệm, là địa chỉ tin cậy cho các
+                dịch vụ bảo dưỡng, sửa chữa và thay thế linh kiện cho điện thoại di động và laptop. Với tiêu chí "Khách
+                hàng là trên hết", chúng tôi cam kết mang lại cho quý khách hàng trải nghiệm tốt nhất khi sử dụng dịch
+                vụ của chúng tôi.</p>
+            <div class="dichvu">
+                <div class="cacdichvu">
+                    <img src="Images/dichvusuachua/baoduongsuachua.png" alt="baoduongsuachua">
+                    <h4>Dịch vụ bảo dưỡng và sửa chữa</h4>
+                    <p>Đội ngũ kỹ thuật viên tại Đông Hùng Mobile có kiến thức sâu rộng và kỹ năng chuyên môn cao, đảm
+                        bảo sẽ khắc phục mọi sự cố kỹ thuật trên điện thoại và laptop của bạn một cách nhanh chóng và
+                        hiệu quả.</p>
+                </div>
+                <div class="cacdichvu">
+                    <img src="Images/dichvusuachua/linhkien.png" alt="linhkien">
+                    <h4>Thay thế linh kiện chất lượng</h4>
+                    <p>Chúng tôi cam kết sử dụng các linh kiện thay thế chính hãng và chất lượng cao nhất để đảm bảo
+                        tính ổn định và hiệu suất của thiết bị sau khi sửa chữa.</p>
+                </div>
+                <div class="cacdichvu">
+                    <img src="Images/dichvusuachua/chuyennghiep.png" alt="chuyennghiep">
+                    <h4>Tiện ích và chuyên nghiệp</h4>
+                    <p>Với quy trình tiếp nhận và sửa chữa chuyên nghiệp, Đông Hùng Mobile không chỉ đảm bảo mức độ uy
+                        tín lớn mà còn mang lại sự yên tâm và hài lòng tối đa cho khách hàng.</p>
+                </div>
+                <div class="cacdichvu">
+                    <img src="Images/dichvusuachua/hotrokhachhang.png" alt="hotrokhachhang">
+                    <h4>Dịch vụ khách hàng</h4>
+                    <p>Chúng tôi luôn lắng nghe và đáp ứng nhanh chóng mọi yêu cầu và phản hồi từ phía khách hàng, nhằm
+                        đảm bảo mọi trải nghiệm của quý khách hàng tại Đông Hùng Mobile là hoàn hảo nhất.</p>
+                </div>
+            </div>
+            <img src="Images/banner/banner-bottom-dichvu.jpg" alt="banner-bottom-dichvu">
+        </div>
+    </section>
+    <div class="company">
+        <div class="companymeunu">
+            <a href="#"><img src="Images/company/Apple.jpg" alt="Apple"></a>
+            <a href="#"><img src="Images/company/Coolpad.png" alt="Coolpad"></a>
+            <a href="#"><img src="Images/company/HTC.jpg" alt="HTC"></a>
+            <a href="#"><img src="Images/company/Huawei.jpg" alt="Huawei"></a>
+            <a href="#"><img src="Images/company/Itel.jpg" alt="Itel"></a>
+            <a href="#"><img src="Images/company/Mobell.jpg" alt="Mobell"></a>
+            <a href="#"><img src="Images/company/Mobiistar.jpg" alt="Mobiistar"></a>
+            <a href="#"><img src="Images/company/Motorola.jpg" alt="Motorola"></a>
+            <a href="#"><img src="Images/company/Nokia.jpg" alt="Nokia"></a>
+            <a href="#"><img src="Images/company/Oppo.jpg" alt="Oppo"></a>
+            <a href="#"><img src="Images/company/Philips.jpg" alt="Philips"></a>
+            <a href="#"><img src="Images/company/Realme.png" alt="Realme"></a>
+            <a href="#"><img src="Images/company/Samsung.jpg" alt="Samsung"></a>
+            <a href="#"><img src="Images/company/Vivo.jpg" alt="Vivo"></a>
+            <a href="#"><img src="Images/company/Xiaomi.png" alt="Xiaomi"></a>
+        </div>
+    </div>
+    <footer>
+        <div class="frist-footer">
+            <div class="content-footer">
+                <h3>hệ thống cửa hàng</h3>
+                <h4>khu vực bình dương</h4>
+                <p><i class="fa-solid fa-location-dot"></i> Số 06, Trần Văn Ơn, Phú Hòa, Thủ Dầu Một, Bình Dương</p>
+                <div class="hotline">
+                    <p><i class="fa-solid fa-phone"></i> Hotline: <a href="tel:0123456789">0123456789</a></p>
+                </div>
+                <p>Số GCNĐKKD: 7326374</p>
+                <p>Cấp lần đầu: Ngày 03/03/2024</p>
+                <p>Địa chỉ: Thành phố Thủ Dầu Một, Tỉnh Bình Dương</p>
+                <img src="Images/thongbaocongthuong.png" alt="thongbaocongthuong">
+            </div>
+            <div class="content-footer">
+                <h3>lợi ích khi mua hàng</h3>
+                <ul>
+                    <li>Giao hàng hỏa tốc trong 1 giờ</li>
+                    <li>Thanh toán linh hoạt: tiền mặt, visa / master, trả góp</li>
+                    <li>Trải nghiệm sản phẩm tại nhà</li>
+                    <li>Lỗi đổi tại nhà trong 1 ngày</li>
+                    <li>Hỗ trợ suốt thời gian sử dụng</li>
+                </ul>
+            </div>
+            <div class="content-footer">
+                <h3>đăng ký nhận thông báo từ chúng tôi</h3>
+                <p>Mỗi tháng chúng tôi đều có những đợt giảm giá dịch vụ và sản phẩm nhằm tri ân khách hàng. Để có thể
+                    cập nhật kịp thời những đợt giảm giá này, vui lòng nhập thông tin vào ô dưới đây.</p>
+                <form action="#">
+                    <input type="text" placeholder="Họ và Tên (*)" required> <br>
+                    <input type="email" placeholder="Email (*)" required> <br>
+                    <input type="tel" placeholder="Số điện thoại (*)" required> <br>
+                    <input type="submit" value="Đăng Ký">
+                </form>
+                <div class="hotrotragop">
+                    <h3>hỗ trợ trả góp</h3>
+                    <img src="Images/icon/logo-tra-gop.webp" alt="logo-tra-gop">
+                </div>
+            </div>
+        </div>
+        <div class="second-footer">
+            <p><a href="index.html">Đông Hùng Mobile Phone</a> - All rights reserved &#169; 2024 - Designed by group 9
+            </p>
+        </div>
+    </footer>
+    <div class="backtop">
+        <i class="fa-solid fa-angle-up"></i>
+    </div>
+</body>
+<script src="js/scripts.js"></script>
+
+</html>

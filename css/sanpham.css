@@ -1,0 +1,383 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+header {
+    border-bottom: 3px solid rgb(75, 70, 70) ;
+    box-shadow: 0 6px 50px 0 white;
+}
+header > h5 {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 10px;
+    border-bottom: 3px solid rgb(75, 70, 70);
+}
+header > .banner {
+    display: flex;
+    padding: 10px;
+}
+header > .banner > .video {
+    width: 50%;
+    margin-left: 50px;
+}
+header > .banner > .video > .video-1 {
+    border: 3px solid black;
+    border-radius: 5px;
+}
+header > .banner > .congcu {
+    width: 40%;
+}
+header > .banner > .congcu > .check-1 {
+    display: flex;
+    justify-content: space-between;
+}
+header > .banner > .congcu > .check-1 > .congcu-1 {
+    background-color: red;
+    border-radius: 5px;
+    height: 60px;
+    text-align: center;
+    border: 3px solid black;
+    outline: none;
+    width: calc(100% - 70px);
+    cursor: pointer;
+}
+header > .banner > .congcu > .check-1 > .congcu-1 > h5,
+header > .banner > .congcu > .check-2 > .congcu-3 > h5,
+header > .banner > .congcu > .check-2 > .congcu-4 > h5 {
+    margin-top: 10px;
+    font-size: 20px;
+}
+header > .banner > .congcu > .check-1 > .congcu-2 {
+    border: 3px solid black;
+    border-radius: 10px;
+    flex-direction: column;
+    height: 60px;
+    width: 60px;
+    text-align: center;
+    cursor: pointer;
+}
+header > .banner > .congcu > .check-1 > .congcu-2 > img {
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    margin-top: 5px;
+}
+header > .banner > .congcu > .check-1 > .congcu-2 > p {
+    font-size: 9px;
+    color: red;
+}
+header > .banner > .congcu > .check-2 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    gap: 10px;
+}
+header > .banner > .congcu > .check-2 > .congcu-3,
+header > .banner > .congcu > .check-2 > .congcu-4 {
+    background-color: aqua;
+    border-radius: 5px;
+    height: 60px;
+    text-align: center;
+    border: 3px solid black;
+    outline: none;
+    width: 50%;
+    cursor: pointer;
+}
+header > .banner > .congcu > .check-1 > .congcu-1:hover,
+header > .banner > .congcu > .check-1 > .congcu-2:hover,
+header > .banner > .congcu > .check-2 > .congcu-3:hover,
+header > .banner > .congcu > .check-2 > .congcu-4:hover {
+    background-color: aquamarine;
+    color: red;
+    font-style: italic;
+}
+header > .banner > .congcu > .check-3 {
+    border: 3px solid black;
+    margin-top: 10px;
+    border-radius: 5px;
+    height: 180px;
+}
+header > .banner > .congcu > .check-3 > .congcu-5 {
+    border-bottom: 2px solid black;
+    height: 30px;
+    font-size: 25px;
+    background-color: darkgrey;
+}
+header > .banner > .congcu > .check-3 > .congcu-6 {
+    margin-left: 25px;
+    height: 125px;
+}
+header > .banner > .congcu > .check-3 > .congcu-6 > ul {
+    margin-top: 12px;
+}
+.thongtin {
+    margin: 20px;
+    box-shadow: 6px 6px 40px 6px white;
+    border-radius: 5px;
+    border: 3px solid black;
+}
+.thongtin > .thongtin-1 {
+    margin: 10px;
+    border: 3px solid black;
+    border-radius: 5px;
+    box-shadow: 6px 6px 40px 6px white;
+}
+.thongtin > .thongtin-2 {
+    margin: 10px;
+    height: 1550px;
+    border: 3px solid black;
+    border-radius: 5px;
+    box-shadow: 6px 6px 40px 6px white;
+}
+.thongtin > .thongtin-1 > .dacdiem-1 {
+    margin: 10px;
+    border: 3px solid whitesmoke;
+    border-radius: 5px;
+    background-color: antiquewhite;
+    height: 130px;
+}
+.thongtin > .thongtin-1 > .dacdiem-1 > h5 {
+    font-size: 20px;
+    text-align: center;
+    color: red;
+}
+.thongtin > .thongtin-1 > .dacdiem-1 > p {
+    margin-top: 5px;
+}
+.thongtin > .thongtin-1 > .dacdiem-2 {
+    margin: 10px;
+    border: 3px solid whitesmoke;
+    border-radius: 5px;
+    background-color: rgb(237, 167, 96);
+    height: 130px;
+}
+.thongtin > .thongtin-1 > .dacdiem-2 > p {
+    margin-top: 20px;
+}
+.thongtin > .thongtin-1 > .dacdiem-3 {
+    margin: 10px;
+    border: 3px solid whitesmoke;
+    border-radius: 5px;
+    background-color: coral;
+}
+.thongtin > .thongtin-1 > .dacdiem-3 > h5 {
+    font-size: 20px;
+    text-align: center;
+    margin: 10px;
+}
+.thongtin > .thongtin-1 > .dacdiem-3 > .p-1 {
+    margin-bottom: 10px;
+}
+.thongtin > .thongtin-1 > .dacdiem-3 > ul {
+    margin-left: 40px;
+    margin-bottom: 5px;
+}
+.thongtin > .thongtin-2 > .thongso-1 {
+    font-size: 35px;
+    background-color: red;
+    height: 40px;
+    text-align: center;
+}
+.thongtin > .thongtin-2 > .thongso-2 {
+    margin: 10px;
+}
+.thongtin > .thongtin-2 > .thongso-2 > h5 {
+    font-size: 25px;
+    margin-top: 10px;
+}
+.thongtin > .thongtin-2 > .thongso-2 > .div-1 {
+    border: 2px solid black;
+    border-radius: 5px;
+    box-shadow: 6px 6px 40px 6px white;
+    font-size: 20px;
+}
+.thongtin > .thongtin-2 > .thongso-2 > .div-1 > .hinh-1 {
+    background-color: rgb(157, 157, 157);
+    height: 30px;
+}
+.thongtin > .thongtin-2 > .thongso-2 > .div-1 > .hinh-2 {
+    background-color: aliceblue;
+}
+.thongtin > .thongtin-2 > .thongso-3 {
+    margin: 10px;
+    height: 110px;
+}
+.thongtin > .thongtin-2 > .thongso-3 > h5 {
+    font-size: 25px;
+    margin-top: 10px;
+}
+.thongtin > .thongtin-2 > .thongso-3 > .div-2 {
+    border: 2px solid black;
+    border-radius: 5px;
+    box-shadow: 6px 6px 40px 6px white;
+    font-size: 20px;
+}
+.thongtin > .thongtin-2 > .thongso-3 > .div-2 > .hinh-1 {
+    background-color: rgb(157, 157, 157);
+}
+.thongtin > .thongtin-2 > .thongso-3 > .div-2 > .hinh-2 {
+    background-color: aliceblue;
+}
+.thongtin > .thongtin-2 > .thongso-4 {
+    margin: 10px;
+}
+.thongtin > .thongtin-2 > .thongso-4 > h5 {
+    font-size: 25px;
+    margin-top: 15px;
+}
+.thongtin > .thongtin-2 > .thongso-4 > p {
+    border: 2px solid black;
+    border-radius: 5px;
+    box-shadow: 6px 6px 40px 6px white;
+    font-size: 20px;
+    background-color: rgb(157, 157, 157);
+}
+.thongtin > .thongtin-2 > .thongso-5 {
+    margin: 10px;
+}
+.thongtin > .thongtin-2 > .thongso-5 > h5 {
+    font-size: 25px;
+    margin-top: 15px;
+}
+.thongtin > .thongtin-2 > .thongso-5 > .div-3 {
+    border: 2px solid black;
+    border-radius: 5px;
+    box-shadow: 6px 6px 40px 6px white;
+    font-size: 20px;
+}
+.thongtin > .thongtin-2 > .thongso-5 > .div-3 > .hinh-1 {
+    background-color: rgb(157, 157, 157);
+}
+.thongtin > .thongtin-2 > .thongso-5 > .div-3 > .hinh-2 {
+    background-color: aliceblue;
+}
+.thongtin > .thongtin-2 > .thongso-6 {
+    margin: 10px;
+}
+.thongtin > .thongtin-2 > .thongso-6 > h5 {
+    font-size: 25px;
+    margin-top: 15px;
+}
+.thongtin > .thongtin-2 > .thongso-6 > .div-4 {
+    border: 2px solid black;
+    border-radius: 5px;
+    box-shadow: 6px 6px 40px 6px white;
+    font-size: 20px;
+}
+.thongtin > .thongtin-2 > .thongso-6 > .div-4 > .hinh-1 {
+    background-color: rgb(157, 157, 157);
+}
+.thongtin > .thongtin-2 > .thongso-6 > .div-4 > .hinh-2 {
+    background-color: aliceblue;
+}
+.thongtin > .thongtin-2 > .thongso-7 {
+    margin: 10px;
+}
+.thongtin > .thongtin-2 > .thongso-7 > h5 {
+    font-size: 25px;
+    margin-top: 15px;
+}
+.thongtin > .thongtin-2 > .thongso-7 > .div-5 {
+    border: 2px solid black;
+    border-radius: 5px;
+    box-shadow: 6px 6px 40px 6px white;
+    font-size: 20px;
+}
+.thongtin > .thongtin-2 > .thongso-7 > .div-5 > .hinh-1 {
+    background-color: rgb(157, 157, 157);
+}
+.thongtin > .thongtin-2 > .thongso-7 > .div-5 > .hinh-2 {
+    background-color: aliceblue;
+}
+.thongtin > .thongtin-2 > .thongso-8 {
+    margin: 10px;
+}
+.thongtin > .thongtin-2 > .thongso-8 > h5 {
+    font-size: 25px;
+    margin-top: 15px;
+}
+.thongtin > .thongtin-2 > .thongso-8 > .div-6 {
+    border: 2px solid black;
+    border-radius: 5px;
+    box-shadow: 6px 6px 40px 6px white;
+    font-size: 20px;
+}
+.thongtin > .thongtin-2 > .thongso-8 > .div-6 > .hinh-1 {
+    background-color: rgb(157, 157, 157);
+}
+.thongtin > .thongtin-2 > .thongso-8 > .div-6 > .hinh-2 {
+    background-color: aliceblue;
+}
+.thongtin > .thongtin-2 > .thongso-9 {
+    margin: 10px;
+}
+.thongtin > .thongtin-2 > .thongso-9 > h5 {
+    font-size: 25px;
+    margin-top: 15px;
+}
+.thongtin > .thongtin-2 > .thongso-9 > .div-7 {
+    border: 2px solid black;
+    border-radius: 5px;
+    box-shadow: 6px 6px 40px 6px white;
+    font-size: 20px;
+}
+.thongtin > .thongtin-2 > .thongso-9 > .div-7 > .hinh-1 {
+    background-color: rgb(157, 157, 157);
+}
+.thongtin > .thongtin-2 > .thongso-9 > .div-7 > .hinh-2 {
+    background-color: aliceblue;
+}
+.thongtin > .thongtin-2 > .thongso-10 {
+    margin: 10px;
+}
+.thongtin > .thongtin-2 > .thongso-10 > h5 {
+    font-size: 25px;
+    margin-top: 15px;
+}
+.thongtin > .thongtin-2 > .thongso-10 > .div-8 {
+    border: 2px solid black;
+    border-radius: 5px;
+    box-shadow: 6px 6px 40px 6px white;
+    font-size: 20px;
+}
+.thongtin > .thongtin-2 > .thongso-10 > .div-8 > .hinh-1 {
+    background-color: rgb(157, 157, 157);
+}
+.thongtin > .thongtin-2 > .thongso-10 > .div-8 > .hinh-2 {
+    background-color: aliceblue;
+}
+.thongtin > .thongtin-2 > .thongso-11 {
+    margin: 10px;
+}
+.thongtin > .thongtin-2 > .thongso-11 > h5 {
+    font-size: 25px;
+    margin-top: 15px;
+}
+.thongtin > .thongtin-2 > .thongso-11 > .div-9 {
+    border: 2px solid black;
+    border-radius: 5px;
+    box-shadow: 6px 6px 40px 6px white;
+    font-size: 20px;
+}
+.thongtin > .thongtin-2 > .thongso-11 > .div-9 > .hinh-1 {
+    background-color: rgb(157, 157, 157);
+}
+.thongtin > .thongtin-2 > .thongso-11 > .div-9 > .hinh-2 {
+    background-color: aliceblue;
+}
+.thongtin > .thongtin-2 > .thongso-12 {
+    margin: 10px;
+}
+.thongtin > .thongtin-2 > .thongso-12 > h5 {
+    font-size: 25px;
+    margin-top: 15px;
+}
+.thongtin > .thongtin-2 > .thongso-12 > p {
+    border: 2px solid black;
+    border-radius: 5px;
+    box-shadow: 6px 6px 40px 6px white;
+    font-size: 20px;
+    background-color: rgb(157, 157, 157);
+}

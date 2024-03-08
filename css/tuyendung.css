@@ -1,0 +1,35 @@
+.body-tuyendung {
+    margin: 50px;
+    width: 90%;
+}
+
+.tuyendung-header {
+    font-size: 20px;
+    height: 40px;
+    font-weight: bold;
+    line-height: 40px;
+    padding-left: 10px;
+}
+
+.tuyendung-info {
+    margin: 10px;
+}
+
+.tieude {
+    color: rgb(37, 15, 240);
+    text-align: center;
+    font-size: 28px;
+}
+
+.tuyendung-noidung {
+    margin: 10px 0 15px 25px;
+}
+
+ul li span {
+    font-weight: bold;
+    color: red;
+}
+
+ul li a {
+    text-decoration: none;
+}

@@ -1,0 +1,27 @@
+.page-gt {
+	width: 80%;
+	margin: 50px 0 150px 100px;
+}
+
+.page-header {
+	font-size: 20px;
+	height: 40px;
+	line-height: 40px;
+	padding-left: 10px;
+}
+
+.page-info {
+	font-size: 15px;
+	margin-top: 20px;
+}
+
+.page-gif {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.page-gif img {
+	width: 21rem;
+	height: 15rem;
+}

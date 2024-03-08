@@ -1,0 +1,85 @@
+.form-main {
+    width: 100%;
+    margin: 0 auto;
+    padding: 4em 2em;
+    border: 1px solid #BBBBBB;
+    text-align: center;
+}
+
+.form-1 {
+    display: grid;
+    justify-content: cenrter;
+    align-items: center;
+}
+
+.form-1 h2 {
+    color: black;
+    font-size: 20px;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 1.5em;
+    letter-spacing: 3px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 45px;
+    font-weight: 300;
+    margin: 40px 0;
+    color: black;
+    letter-spacing: 9px;
+    word-spacing: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+form {
+    margin: 0 auto;
+    width: 100%;
+}
+
+.form-2 {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.form-2 input[type="text"],
+.form-2 input[type="email"],
+.form-2 input[type="tel"],
+.form-2 input[type="password"] {
+    width: 85%;
+    padding: 15px 66px 15px 19px;
+    text-align: left;
+    background-color: black;
+    border: 2px solid aqua;
+    font-size: 15px;
+    letter-spacing: 1.5px;
+    color: white;
+    outline: 0;
+    box-shadow: 0 10px 20px 0 black;
+}
+
+.submit {
+    text-align: center;
+    margin-top: 2em;
+}
+
+.submit input[type="submit"] {
+    text-align: center;
+    border: 0;
+    color: white;
+    font-size: 17px;
+    font-weight: 600;
+    padding: 14px 90px;
+    background-color: black;
+    border: 3px solid aqua;
+    box-shadow: 0 12px 32px 0 black;
+    outline: none;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+}
+
+.submit input[type="submit"]:hover {
+    transform: scale(1.2);
+    background-color: crimson;
+}
